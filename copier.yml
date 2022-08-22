@@ -30,6 +30,6 @@ _subdirectory: project
 _templates_suffix: .jinja
 _skip_if_exists:
   - CHANGELOG.md
-_tasks:
-  - python3 hooks/post_generation.py
-  - rm -rf hooks
+#_tasks:
+#  - python3 hooks/post_generation.py
+#  - rm -rf hooks
